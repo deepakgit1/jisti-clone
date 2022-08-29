@@ -134,7 +134,7 @@ class WelcomePage extends AbstractWelcomePage {
         super.componentDidMount();
 
         document.body.classList.add('welcome-page');
-        document.title = interfaceConfig.APP_NAME;
+        document.title = "We-Meet";
 
         if (this.state.generateRoomnames) {
             this._updateRoomname();
@@ -373,7 +373,7 @@ class WelcomePage extends AbstractWelcomePage {
             <div className = 'welcome-footer-centered'>
                 <div className = 'welcome-footer-padded'>
                     <div className = 'welcome-footer-row-block welcome-footer--row-1'>
-                        <div className = 'welcome-footer-row-1-text'>{t('welcomepage.jitsiOnMobile')}</div>
+                        <div className = 'welcome-footer-row-1-text'>download our apps and start a meeting from anywhere</div>
                         <a
                             className = 'welcome-badge'
                             href = { MOBILE_DOWNLOAD_LINK_IOS }>

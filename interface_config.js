@@ -8,6 +8,10 @@
  * config.js, and no new options should be added here.
  */
 
+var interfaceConfig2 = {
+    APP_NAME: 'Jitsi 2222222222',
+}
+
 var interfaceConfig = {
     APP_NAME: 'Jitsi Meet',
     AUDIO_LEVEL_PRIMARY_COLOR: 'rgba(255,255,255,0.4)',

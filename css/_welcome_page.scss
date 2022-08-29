@@ -217,12 +217,12 @@ body.welcome-page {
 
     .welcome-watermark {
         position: absolute;
-        width: 100%;
+        width: 150%;
         height: 100%;
 
         .watermark.leftwatermark {
             width: $welcomePageWatermarkWidth;
-            height: $welcomePageWatermarkHeight;
+            height: 75px;
         }
     }
 
