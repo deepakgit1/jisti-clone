@@ -16,6 +16,7 @@ const order = [
     'querystring',
     'localStorage'
 ];
+//
 
 // Allow i18next to detect the system language reported by the Web browser
 // itself.
