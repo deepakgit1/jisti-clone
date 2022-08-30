@@ -258,7 +258,7 @@ function getDevServerConfig() {
                 warnings: false
             }
         },
-        host: '127.0.0.1',
+        host: 'https://gentle-flan-120cb2.netlify.app',
         hot: true,
         proxy: {
             '/': {
