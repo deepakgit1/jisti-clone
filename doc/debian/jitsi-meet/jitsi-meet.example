@@ -101,6 +101,7 @@ server {
         proxy_set_header Host $http_host;
         proxy_set_header Connection "";
         proxy_set_header 'Access-Control-Allow-Origin' '*';
+        cross_domain_bosh = true
     }
 
     # xmpp websockets
